@@ -1,0 +1,25 @@
+ nav {
+      display: flex;
+      justify-content: center;
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      padding: 10px;
+      gap: 15px;
+    }
+
+    nav button {
+      background: #fff;
+      color: #4e54c8;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: all 0.3s;
+    }
+
+    nav button:hover {
+      background: #4e54c8;
+      color: white;
+      transform: translateY(-2px);
+    }

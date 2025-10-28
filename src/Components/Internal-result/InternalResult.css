@@ -1,0 +1,22 @@
+ table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px 12px;
+      text-align: center;
+    }
+
+    th {
+      background: #4e54c8;
+      color: white;
+    }
+
+    .grade {
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #2c3e50;
+    }

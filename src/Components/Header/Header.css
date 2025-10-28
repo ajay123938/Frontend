@@ -1,0 +1,30 @@
+ header {
+      background: rgba(255, 255, 255, 0.2);
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      backdrop-filter: blur(10px);
+      font-size: 1.8rem;
+      letter-spacing: 1px;
+      font-weight: 600;
+      position: sticky;
+      top: 0;
+    }
+
+    .logout-btn {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      background: #ff4e50;
+      color: white;
+      border: none;
+      padding: 8px 14px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 0.9rem;
+      transition: 0.3s;
+    }
+
+    .logout-btn:hover {
+      background: #ff7676;
+    }

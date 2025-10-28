@@ -1,0 +1,15 @@
+  body {
+      margin: 0;
+      font-family: "Segoe UI", sans-serif;
+      background: linear-gradient(135deg, rgba(78,84,200,0.8), rgba(143,148,251,0.8)),
+                  url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b') no-repeat center/cover;
+      color: #333;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
